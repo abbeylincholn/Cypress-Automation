@@ -6,17 +6,7 @@ describe("Static dropDown fuctionality", () => {
     cy.wait(3000)
     cy.get('#drop1').select('doc 2')
     cy.wait(3000)
-    cy.get('#drop1').select('doc 4')
-    
-
-   
-
-
-    
-    
-   
-    
-
+    cy.get('#drop1').select('doc 4')  
 
    
   });

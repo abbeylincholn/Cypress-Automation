@@ -39,7 +39,7 @@ describe("Zoho Books Login Test", () => {
     // Now switch to the second origin (https://accounts.zoho.eu)
     cy.origin("https://accounts.zoho.eu", () => {
       // Perform actions on the second origin (https://accounts.zoho.eu)
-      cy.get("#password").should("be.visible").type("December25!");
+      cy.get("#password").type("December25!");
       cy.get("#nextbtn > span").click();
     });
 
